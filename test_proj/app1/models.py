@@ -3,7 +3,7 @@ from django.db import models
 
 class User(models.Model):
 
-    name = models.TextField(max_length=255)
+    first_name = models.TextField(max_length=255)
 
     class Meta:
         db_table = 'users'
